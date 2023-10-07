@@ -1,0 +1,26 @@
+* {
+  margin: 0.3rem;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.App {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+
+}
+
+.images{
+  display: flex;
+  float: right;
+  align-items:right;
+
+}
+
+
