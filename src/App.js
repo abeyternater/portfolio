@@ -8,7 +8,6 @@ import Table from './Table';
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
       <Table></Table>
   </div>
   );

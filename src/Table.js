@@ -9,10 +9,10 @@ function Table () {
         <table>
         <tr>
         <div className="crewchief">
-        <div className="left"><td><h1>Crew Chief</h1><h3>Responsive React Web Application</h3><h3>Multiple Pages linked with React-Router package</h3><h3>Contact Form built with EmailJS</h3><ul>
+        <div className="left"><td><h1><a href="https://crewchief.netlify.app" rel="noreferrer" target="_blank">Crew Chief</a></h1><h3>Responsive React Web Application</h3><h3>Multiple Pages linked with React-Router package</h3><h3>Contact Form built with EmailJS</h3><ul>
         <li>Able to convert HTML, CSS, JS site to a React Application</li>
         <li>Learned how to use git add. , git commit -m "Message", and git push to publish to Github</li>
-        <li>Deployed to Netlify through GitHub repository</li><li><a href="https://crewchief.netlify.app">Crew Chief React App</a></li></ul></td>
+        <li>Deployed to Netlify through GitHub repository</li></ul></td>
         </div>
         <td></td>
         <div className="right">

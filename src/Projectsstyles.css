@@ -1,0 +1,19 @@
+@media screen and (max-width:1620px){
+    .contact{
+        display: none;
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+    }
+    .right td img:not(.contact){
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    
+    
+}

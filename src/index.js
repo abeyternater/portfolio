@@ -3,27 +3,28 @@ import './index.css';
 import App from './App';
 import { createRoot } from "react-dom/client";
 import About from "./About";
-
+import PageLayout from './PageLayout';
 import {
-  createBrowserRouter,
-  RouterProvider,
+  Routes,Route,BrowserRouter
 } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import  Contactpage  from './Contactpage';
+import  Contactpage  from './Contact';
+import Contact from './Contact';
+import Projects from './Projects';
 
-const router = createBrowserRouter([
-  {path: "/",
-    element:<App />},
-    {path: "/About",
-    element:<About />},
-  {path: "/Contactpage",
-    element: <Contactpage />}
 
-  
-]);
 
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <BrowserRouter>
+  <Routes>
+    <Route element={<PageLayout />}>
+      <Route path= "/" element={<App />} />
+      <Route path= "/About" element={<About />} />
+      <Route path= "/Projects" element={<Projects />} />
+      <Route path= "/Contact" element={<Contact />} />
+    </Route>
+  </Routes>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

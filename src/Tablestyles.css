@@ -2,21 +2,22 @@
 
 *{
     color: white;
-    overflow: auto;
 }
 tr{
     display: flex;
 }
-
-.left td ul li a{
-cursor: pointer;}
+html a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
 
 .landing{
-    width: 380px; 
+    max-width: 380px; 
     height:740px;
     }
 .contact{
-    width: 380px; 
+    max-width: 380px; 
     height:740px; 
     }
 
@@ -26,21 +27,18 @@ cursor: pointer;}
         flex-direction: column;
         margin-right: 0;
         justify-content: center;
-        overflow: auto;
     }
-   /* .right{
+    .right{
         justify-content: center;
-        display: sticky;
-        width: 100%;
-    }
+        width: 800px;
+    }/*
     .right td{
         justify-content: center;
         width: 100%;
     }*/
     .right td{
-        overflow: auto;
         justify-content: center;
-        width: 700px;
+        align-items: right;
     }
     
     
@@ -67,19 +65,22 @@ cursor: pointer;}
         text-align: center;
         justify-content: center;
         display: flex;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .crewchief td h1{
         justify-content: center;
         height: 50%;
         text-transform: uppercase;
-    font-size: 5em;
-    font-style: italic;
+        font-size: 4em;
+        font-style: italic;
     transition: all .1s ease-in;
+    margin: 1rem;
     }
 
     .crewchief td h1:hover{
-        transform: scale(1.2);
+        transform: scale(1.05);
     }
 
     .crewchief td ul li{
@@ -102,16 +103,12 @@ cursor: pointer;}
 
         table .crewchief{
             display: table-column;
-            overflow: auto;
         }
 
         .crewchief td h1{
             font-size: 2rem;
         }
 
-        .crewchief td ul{
-            
-        }
 
         .crewchief td ul li{
             font-size: 1.5rem;
