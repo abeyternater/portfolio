@@ -8,7 +8,6 @@ import {
   Routes,Route,BrowserRouter
 } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import  Contactpage  from './Contact';
 import Contact from './Contact';
 import Projects from './Projects';
 

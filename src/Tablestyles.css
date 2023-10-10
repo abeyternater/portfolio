@@ -22,15 +22,16 @@ html a{
     }
 
     .left{
-        height: 50%;
+        height: 100%;
         width: 100%;
         flex-direction: column;
         margin-right: 0;
         justify-content: center;
+        display: flex;
     }
     .right{
         justify-content: center;
-        width: 800px;
+        flex-direction: row;
     }/*
     .right td{
         justify-content: center;
@@ -38,7 +39,10 @@ html a{
     }*/
     .right td{
         justify-content: center;
-        align-items: right;
+        align-items: center;
+        flex-direction: row;
+        width: 640px;
+        margin: 0;
     }
     
     
@@ -71,16 +75,14 @@ html a{
 
     .crewchief td h1{
         justify-content: center;
-        height: 50%;
         text-transform: uppercase;
         font-size: 4em;
         font-style: italic;
-    transition: all .1s ease-in;
-    margin: 1rem;
+        transition: all .1s ease-in;
     }
 
     .crewchief td h1:hover{
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 
     .crewchief td ul li{

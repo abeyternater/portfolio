@@ -14,7 +14,6 @@ function Table () {
         <li>Learned how to use git add. , git commit -m "Message", and git push to publish to Github</li>
         <li>Deployed to Netlify through GitHub repository</li></ul></td>
         </div>
-        <td></td>
         <div className="right">
             
         <td><img className='landing' src={crewchiefiphone} alt="Logo" /></td><td><img className='contact' src={crewchiefiphone2} alt="Logo" /></td>

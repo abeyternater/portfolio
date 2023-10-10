@@ -2,8 +2,9 @@ import Table from './Table';
 import './Projectsstyles.css';
 
 function Projects() {
-  return (
+  return (<div className="Projects">
     <Table></Table>
+    </div>
   );
 }
 

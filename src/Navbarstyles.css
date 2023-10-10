@@ -18,25 +18,25 @@
     margin-top: 1rem;
     margin-left: 1rem;
     z-index: 10;
-    
+    background-color: black;
+    background-size: cover;
 }
 
 .navMenu h1{
 font-family: 'Dela Gothic One', sans-serif;
 text-decoration: none;
 color: white;
-margin-top: 1.5rem;
+margin:2rem;
 text-transform: uppercase;
 font-size: 1.5rem;
-margin-left: 1rem;
-margin-right: 1rem;
-margin-bottom: 1rem;
+
 transition: all .1s ease-in;
 overflow: hidden;
 }
 
-.navMenu h1:hover{
+ .navMenu h1:hover{
     transform: scale(1.15);
+    margin: 2rem;
 }
 
 @media screen and (max-width:436px) {

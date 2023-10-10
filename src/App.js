@@ -1,9 +1,8 @@
 import './App.css';
 import 'animate.css';
 /*import {Link} from 'react-router-dom';*/
-import {Navbar} from './Navbar';
-
 import Table from './Table';
+
 
 function App() {
   return (
