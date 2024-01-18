@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.About1{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.Aboutp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Dela Gothic One', sans-serif;
+    flex-direction: column;
+    width: 60%;
+
+
+  }
+
+  .Aboutp h3{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    line-height: 4rem;
+
+
+  }
+
+  
+
+
+
