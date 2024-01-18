@@ -7,8 +7,8 @@ function About() {
         <div className="About1">
             <div className="Aboutp">
                 <h3>Hello</h3>
-                <h3> My name is James Abeyta. I am a full stack web developer based out of Oregon.
-                    I have been building responsive React applications which you can see in the projects section.
+                <h3> My name is James Abeyta. I am a Southern Oregon based web developer.
+                    I have been building responsive React Applications which you can see in the projects section.
                     I care about intuitive and attractive designs.</h3>
             </div>
         </div>
