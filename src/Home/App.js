@@ -9,7 +9,9 @@ function App() {
         <div className="LandingPage">
             <div className="text">
                 <h1>James Dale Abeyta</h1>
-                <h1>Southern Oregon based Web Developer</h1>
+            </div>
+            <div className="text">
+                <h1>Full Stack Developer</h1>
             </div>
         </div>
     );
