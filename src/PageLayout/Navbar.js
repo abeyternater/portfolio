@@ -10,9 +10,7 @@ import React from 'react';
 
 export const Navbar = () => {
 
-    const slideOut = () => {
-
-    }
+    
         
 
     return(
@@ -26,7 +24,6 @@ export const Navbar = () => {
                 <NavLink to="/Contact" className="navbarbtn"><h1>Contact</h1></NavLink>
         
             </nav>
-            <FontAwesomeIcon onClick={slideOut()} className='hamburger'/>
         </div>
     );
 
