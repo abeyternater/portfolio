@@ -11,7 +11,7 @@ function App() {
                 <h1>James Dale Abeyta</h1>
             </div>
             <div className="text">
-                <h1>Aspiring Self Taught Data Scientist and Developer</h1>
+                <h1>Data Scientist + Developer</h1>
             </div>
         </div>
     );
