@@ -22,9 +22,9 @@ function Table () {
                             <h3>Multiple Pages linked with React-Router package</h3>
                             <h3>Contact Form built with EmailJS</h3>
                             <ul>
-                                <li>Able to convert HTML, CSS, JS site to a React Application</li>
-                                <li>Learned how to use git add. , git commit -m &rsquoMessage&rsquo, and git push to publish to Github</li>
-                                <li>Deployed to Netlify through GitHub repository</li>
+                                <li>-Able to convert HTML, CSS, JS site to a React Application</li>
+                                <li>-Practiced git commands</li>
+                                <li>-Deployed to Netlify through GitHub repository</li>
                             </ul>
                         </td>
             
