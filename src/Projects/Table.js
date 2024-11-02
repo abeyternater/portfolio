@@ -1,9 +1,9 @@
 import './Tablestyles.css';
 import React from 'react';
-import crewchiefiphone from './crewchiefiphonelanding.png';
-import crewchiefiphone2 from './crewchiefiphonecontact.png';
-import studybuddyoniphone from './studybuddyiphone.png';
-import studybuddyoniphone2 from './studybuddyiphone2.png';
+import crewchiefiphone from './images/crewchiefiphonelanding.png';
+import crewchiefiphone2 from './images/crewchiefiphonecontact.png';
+import studybuddyoniphone from './images/studybuddyiphone.png';
+import studybuddyoniphone2 from './images/studybuddyiphone2.png';
 
 
 function Table () {
