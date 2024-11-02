@@ -1,5 +1,4 @@
 import Table from './Table';
-import Table2 from './Table2';
 import './Projectsstyles.css';
 import React from 'react';
 
