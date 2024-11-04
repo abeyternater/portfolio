@@ -56,7 +56,7 @@ function Table () {
                                 <img className='landing' src={studybuddyoniphone} alt="StudyBuddyOnIphone" />
                             </a>
                             <a className='links' href="https://studybuddy.netlify.app/" rel="noreferrer" target="_blank">
-                                <img className='contact' src={studybuddyoniphone2} alt="StudyBuddyOnIphone2" />
+                                <img className='contact' src={studybuddyoniphone2} alt="StudyBuddyOniPhone2" />
                             </a>
                         </td>
                     </tr>

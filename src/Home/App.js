@@ -10,9 +10,6 @@ function App() {
             <div className="text">
                 <h1>James Dale Abeyta</h1>
             </div>
-            <div className="text">
-                <h1>Developer</h1>
-            </div>
         </div>
     );
 }
