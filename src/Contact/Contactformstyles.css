@@ -12,6 +12,7 @@ body{
 	background-size: cover;
 }
 
+
 .container{
 	position: relative;
 	width: 100%;
@@ -42,7 +43,7 @@ form{
 	width: 100vw;
 }
 .contact-box{
-	max-width: 850px;
+	max-width: 40rem;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
 	align-items: center;
@@ -52,11 +53,11 @@ form{
 	border-radius: 18px;
 }
 
-.left1{
-	background-size: cover;
-    align-items: center;
-	height: 120px;
-	width: 120px;
+.logo{
+	height: 100px;
+	width: 100px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .right1{
@@ -84,7 +85,7 @@ h2{
 
 .field{
 	width: 90%;
-	border: 2px solid rgba(0, 0, 0, 0);
+	border: 3px solid rgba(0, 0, 0, 0);
 	outline: none;
 	border-radius: 18px;
 	background-color: darkgray;
@@ -92,6 +93,7 @@ h2{
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
+	color: #000;
 }
 
 .field:hover{
@@ -119,15 +121,13 @@ textarea{
 }
 
 .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
-    background-color: #fff;
+    border: 3px solid #000;
+    background-color: #0000;
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 800px){
 	.contact-box{
 		grid-template-columns: 1fr;
 	}
-	.left1{
-		height: 200px;
-	}
+	
 }

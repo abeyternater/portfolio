@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Contactformstyles.css';
-
 import emailLogo from "./emailicon.png";
 
 const Contact = () => {
@@ -24,15 +23,14 @@ const Contact = () => {
 
             <div className="container">
                 <div className="contact-box">
-                    <div className="left1"><img src={emailLogo} alt="Email Icon"/></div>
+                    <img className="logo" src={emailLogo} alt="Email Icon"/>
 			
-                    <h2 className="formTitle field">Contact Me</h2>
-                    <input className="user_name field" type="text"  placeholder="Your Name" />
-                    <input className="user_email field" type="text"  placeholder="Your Email" />
+                    <input className="user_name field" type="text"  placeholder="Full Name" />
+                    <input className="user_email field" type="text"  placeholder="Email" />
                     <input className="phone_number field" type="text"  placeholder="Phone" />
                     <textarea className="message field" placeholder="Message"></textarea>
 
-                    <button className="btn">Send</button>
+                    <button className="field btn">Send</button>
                 </div>
             </div>
 
