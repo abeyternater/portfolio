@@ -1,27 +1,34 @@
 import 'animate.css';
 import {NavLink} from 'react-router-dom';
 import './Navbar.css';
-import React from 'react';
-
-
+import React, {useState} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 
 
 export const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
 
-    
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
         
 
     return(
-        <div className="navbar0">
-            <nav id="navbar1" className='navMenu' data-visible = "false">
-
-                <NavLink to="/" className="navbarbtn"><h1>JDA</h1></NavLink>
-                <NavLink to="/Projects" className="navbarbtn"><h1>Projects</h1></NavLink>
-                <NavLink to="/Contact" className="navbarbtn"><h1>Contact</h1></NavLink>
+        <div>
         
-            </nav>
+             
+            <div className="navbar0">
+                <FontAwesomeIcon className="burgCon" size="2xl" icon={faBars} onClick={toggleMenu} />
+                <nav className={`navMenu slide-out-nav ${isOpen ? 'open' : ''}`}>
+                    <NavLink to="/" className="navbarbtn"><h1>JDA</h1></NavLink>
+                    <NavLink to="/Projects" className="navbarbtn"><h1>Projects</h1></NavLink>
+                    <NavLink to="/Contact" className="navbarbtn"><h1>Contact</h1></NavLink>
+        
+                </nav>
+            </div>
         </div>
     );
 

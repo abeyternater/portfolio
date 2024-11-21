@@ -6,8 +6,9 @@
 
 .Table1{
     margin-top:8rem;
-    z-index: 400;
+    z-index: 200;
     overflow: visible;
+    position: relative;
 
 }
 
@@ -30,6 +31,8 @@
     width: 380px; 
     height: 740px;
     transition: all .1s ease-in;
+    margin: 0.25rem;
+
 }
 
 .landing:hover{
@@ -37,9 +40,10 @@ transform: scale(1.05);
 z-index: 4;
     }
 .contact{
-    min-width: 380px; 
+    width: 380px; 
     height:740px; 
     transition: all .1s ease-in;
+    margin: 0.25rem;
     }
 
     .contact:hover{
@@ -70,9 +74,7 @@ z-index: 4;
         text-align: center;
     }
     
-    th {
-        background-color: #f2f2f2;
-    }
+    
     
 
 

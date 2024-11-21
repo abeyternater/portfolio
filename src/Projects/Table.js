@@ -32,7 +32,8 @@ function Table () {
                             <a className='links' href="https://crewchief.netlify.app" rel="noreferrer" target="_blank">
                                 <img className='landing' src={crewchiefiphone} alt="CrewChiefOnIphone" />
                             </a>
-                            <a className='links' href="https://crewchief.netlify.app/" rel="noreferrer" target="_blank"><img className='contact' src={crewchiefiphone2} alt="Logo" />
+                            <a className='links' href="https://crewchief.netlify.app/" rel="noreferrer" target="_blank">
+                                <img className='contact' src={crewchiefiphone2} alt="Logo" />
                             </a>
                         </td>
                     </tr>

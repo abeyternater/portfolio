@@ -9,11 +9,11 @@
 nav{
     padding: 0;
 }
+
 .navbar0{
-    z-index: 900;
-    overflow-x: hidden;
-    overflow-y: visible;
+    z-index: 205;
 }
+
 
 .navMenu{
     display: flex;
@@ -25,11 +25,12 @@ nav{
     position: fixed;
     top:0;
     transition: top 0.3s;
-    background-color: black;
     background-size: cover;
     height: 6rem;
     justify-content: space-evenly;
-    z-index: 901;
+    z-index: 900;
+    background-color: black;
+
 
 }
 
@@ -43,6 +44,7 @@ font-size: 1.5rem;
 z-index: 500;
 transition: all .1s ease-in;
 overflow: hidden;
+position: relative;
 }
 
  .navMenu h1:hover{
@@ -53,56 +55,66 @@ html a {
     text-decoration: none;
 }
 
-@media screen and (max-width:814px) {
-    *{
-        overflow: visible;
-    }
-    .navMenu{
-        align-items: center;
-        justify-content: space;
-        position: fixed;
-        
-    }
 
-    table{
-
-        display: flex;
-        justify-content: space-between;
-        margin-top: 0;
-
+.burgCon{
+    margin: 1.5rem;
+    position: fixed;
+    display: none;
+    z-index: 1001;
     }
 
     
-}
-@media screen and (max-width:585px){
+
+
+
+@media screen and (max-width:565px){
     .navMenu{
         position: fixed;
         flex-direction: column;
         display: flex;
         align-items: center;
         height: 100vh;
-        background-color: #6e6e6e;
+        width: 90%;
+        background-color: #000000;
         margin-bottom: 0rem;
         padding-bottom: 0rem;
-        inset: 0 0 0 80% ;
         padding: min(30vh, 10rem) 2em;  
-        z-index: 10; 
+        z-index: 1000; 
         transform: translateX(100%);
  }
 
+
+    .slide-out-nav {
+        position: fixed;
+        top: 0;
+        left: -128.125rem;
+        width: 80%;
+        height: 100%;
+        background-color: #1f1f1f;
+        color: white;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        transition: left 0.3s ease;
+      }
+
+      .slide-out-nav.open {
+        left:-28rem;
+        transition: left 0.3s ease;
+    }
+    
+
+    .burgCon{
+        display: block;
+        cursor: pointer;
+    }
+    
+
     .navMenu h1{
         margin-bottom: 0rem;
-        background-color: #6e6e6e;
     }
     .navMenu[data-visible="true"]{
         transform: translateX(0%);
     }
 
-    .hamburger{
-        margin: 1.5rem;
-        position: fixed;
-        transition: 0.4s;
-    }
 
     
 
