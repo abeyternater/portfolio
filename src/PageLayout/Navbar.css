@@ -87,8 +87,8 @@ html a {
     .slide-out-nav {
         position: fixed;
         top: 0;
-        left: -128.125rem;
-        width: 80%;
+        left: -128rem;
+        width: 80vw;
         height: 100%;
         background-color: #1f1f1f;
         color: white;
@@ -97,7 +97,7 @@ html a {
       }
 
       .slide-out-nav.open {
-        left:-28rem;
+        left:-20rem;
         transition: left 0.3s ease;
     }
     
