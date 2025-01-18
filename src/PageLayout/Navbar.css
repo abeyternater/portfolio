@@ -91,12 +91,12 @@ html a {
         background-color: #1f1f1f;
         color: white;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-        
+        transition: ease-out 0.4s;
       }
 
       .slide-out-nav.open{
-        left: -30rem;
-        
+        transform: translateX(-32rem);
+        transition: ease-out 0.4s;
     }
     
 
@@ -109,9 +109,7 @@ html a {
     .navMenu h1{
         margin-bottom: 0rem;
     }
-    .navMenu[data-visible="true"]{
-        transform: translateX(0%);
-    }
+   
 
 
     

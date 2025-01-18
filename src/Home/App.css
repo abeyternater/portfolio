@@ -44,8 +44,10 @@ overflow: clip;
 
 
 
-@media screen and (max-width:814px) {
-  
+@media screen and (max-width:492px) {
+  .text{
+  text-align: center;
+}
 }
 
 

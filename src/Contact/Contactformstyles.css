@@ -16,12 +16,13 @@ body{
 .container{
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 100px;
+	padding: 10px 100px;
 	background-color: black;
+	margin-top: 7.5rem;
 }
 
 .container:after{
