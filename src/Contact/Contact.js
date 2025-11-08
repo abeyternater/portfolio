@@ -5,22 +5,8 @@ import './Contactformstyles.css';
 import emailLogo from "./emailicon.png";
 
 const Contact = () => {
-    const form = useRef();
 
-<<<<<<< HEAD
     
-=======
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('service_2i285ph', 'template_wu0ivc6', form.current, 'yfsFpK783Zqjg6VgY')
-            .then(() => {
-                alert("Message successfully sent!")
-                window.location.reload(false)
-            },
-            () => {alert('Failed to send the message, please try again.')}
-            )};
->>>>>>> 0be4fc9c1b0e3f317277f19121b61eb594410753
 
     return (
         <form ref={form} netlify>
